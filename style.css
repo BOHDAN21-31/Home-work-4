@@ -1,0 +1,41 @@
+h1, h2 {
+    color: brown;
+    text-align: center;
+    background: black;
+}
+
+p {
+    background-color: lightblue;
+}
+
+.class-selector {
+    background-color: lightgreen;
+}
+
+#id-selector {
+    background-color: lightcoral;
+}
+
+[title] {
+    background-color: orange;
+}
+
+div > p {
+    background-color: yellow;
+}
+
+section article p {
+    background-color: violet;
+}
+
+article + p {
+    background-color: lightgray;
+}
+
+section ~ p {
+    background-color: lightpink;
+}
+
+div.combined p.text {
+    background-color: cyan;
+}
