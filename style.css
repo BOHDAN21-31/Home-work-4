@@ -1,9 +1,3 @@
-h1, h2 {
-    color: brown;
-    text-align: center;
-    background: black;
-}
-
 p {
     background-color: lightblue;
 }
@@ -28,12 +22,24 @@ section article p {
     background-color: violet;
 }
 
-article + p {
-    background-color: lightgray;
+.pseudo::first-letter {
+    font-size: 200%;
+    color: red;
 }
 
-section ~ p {
-    background-color: lightpink;
+.pseudo::first-line {
+    font-weight: bold;
+    color: blue;
+}
+
+.decorated::before {
+    content: "► ";
+    color: orange;
+}
+
+.decorated::after {
+    content: " ★";
+    color: green;
 }
 
 div.combined p.text {
